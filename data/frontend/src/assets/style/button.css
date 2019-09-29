@@ -1,0 +1,20 @@
+.Button button {
+  padding: 0 15px;
+  line-height: 45px;
+  border: none;
+  background: var(--gradientPurple);
+  border-radius: 25px;
+  font-size: 16px;
+  color: #FFF;
+  cursor: pointer;
+  min-width: 150px;
+  box-shadow: 0 9px 15px -4px #b898ff;
+  outline: none;
+  transition: transform .2s ease, box-shadow .2s ease;
+  position: relative;
+}
+
+.Button button:active {
+  transform: translateY(5px);
+  box-shadow: 0 0 0 #b898ff;
+}

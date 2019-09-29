@@ -1,0 +1,48 @@
+.Perfil__Photo img{
+  width: 85px;
+  border-radius: 50%;
+  box-shadow: 0 34px 40px #4f3f86;
+}
+
+.Perfil__Photo a {
+  color: #FFF;
+  margin-right: 45px;
+}
+
+.Graphic__Date--menu {
+  padding: 0;
+}
+
+.Graphic__Date--menu li {
+  list-style: none;
+  color: #a6a6c1;
+  margin-right: 60px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color .1s ease;
+}
+
+.Graphic__Date--menu li.Active {
+  color: var(--secundary);
+}
+
+.Graphic__Date--description {
+  color: var(--secundary);
+}
+
+svg:not(:root) {
+  overflow: visible;
+}
+
+.recharts-tooltip-wrapper {
+  box-shadow: 0 5px 25px -5px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(45deg, #7c9ffd, #e9a2fe);
+  border-radius: 6px;
+  padding: 3px 5px  0 5px
+}
+
+.recharts-default-tooltip {
+ background: transparent !important;
+ border: none !important;
+}

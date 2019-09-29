@@ -1,0 +1,18 @@
+.Logo {
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.Logo img {
+  width: 200px;
+}
+
+.Login {
+  max-width: 500px;
+  color: var(--text);
+  background: var(--secundary);
+  padding: 35px 45px;
+  border-radius: 15px;
+  box-shadow: 0 25px 90px -23px rgba(101, 37, 154, 0.5);
+}

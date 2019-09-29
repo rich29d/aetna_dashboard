@@ -1,0 +1,46 @@
+.Box__Notifications {
+  position: fixed;
+  top: 35px;
+  right: 0;
+  pointer-events: none
+}
+
+.Notification {
+  width: 400px;
+  padding: 20px;
+  position: relative;
+  right: -50px;
+  transition: all .5s ease;
+  border-radius: 8px;
+  opacity: 0;
+  background: #FFF;
+  color: #8467da;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 25px 50px -23px rgba(65, 34, 90, 0.72);
+  margin-bottom: 35px; 
+}
+
+@keyframes fadeToLeft {
+  from {
+    opacity: 0;
+    right: -50px;
+  }
+
+  to {
+    right: 35px;
+    opacity: 1;
+  }
+}
+
+.Notification.Show {
+  animation: fadeToLeft .3s ease forwards;
+}
+
+.Notification i {
+  margin-right: 15px;
+  font-size: 17px;
+  background: rgba(132, 103, 218, 0.2);
+  padding: 10px;
+  border-radius: 50%;
+}

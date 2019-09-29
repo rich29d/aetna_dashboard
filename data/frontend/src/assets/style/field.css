@@ -1,0 +1,37 @@
+.Field {
+  width: 100%;
+}
+
+.Field__Text {
+  border-radius: 5px;
+  background: var(--gray);
+}
+
+.Field i {
+  width: 48px;
+  text-align: center;
+  color: var(--text);
+}
+
+.Field > label {
+  font-size: 16px;
+  color: var(--text);
+  margin-bottom: var(--size-10);
+  display: block;
+  font-weight: bold;
+}
+
+.Field label span {
+  font-size: 14px;
+  color: var(--dark);
+  display: block;
+  font-weight: normal;
+}
+
+.Field input {
+  width: 100%;
+  border: none;
+  height: 45px;
+  background: transparent;
+  outline: none;
+}

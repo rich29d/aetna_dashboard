@@ -1,0 +1,34 @@
+.Widget {
+  width: calc(33% - 30px);
+  height: 340px;
+  border-radius: 5px;
+  background: #7d7d7d;
+  padding: 30px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.Widget__Background--1 {
+  background: linear-gradient(45deg, #f9ca7e, #e99ef8)
+}
+
+.Widget__Background--2 {
+  background: linear-gradient(#79d9fd, #7cebac)
+}
+
+.Widget__Background--3 {
+  background: linear-gradient(-45deg, #7c9ffd, #e9a0fe)
+}
+
+.Widget__Info--item {
+  margin-bottom: 5px;
+}
+
+.Widget__Info--item > *{
+  width: 100%;
+  display: block;
+}
+
+.Widget__Info--item span {
+  font-size: 40px;
+}

@@ -1,0 +1,20 @@
+.Header {
+  width: 100%;
+  padding: 15px
+}
+
+.Header img {
+  width: 130px
+}
+
+.Header__Menu {
+  width: 50%;
+}
+
+.Header__Menu a {
+  color: #a58fde
+}
+
+.Header__Menu a:first-child {
+  color: #CCC;
+}

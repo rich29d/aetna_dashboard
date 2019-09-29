@@ -1,0 +1,1 @@
+module.exports = (req) => req.user.id === req.params.id
